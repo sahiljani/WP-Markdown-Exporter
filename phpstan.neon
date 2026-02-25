@@ -1,0 +1,7 @@
+parameters:
+  level: 5
+  paths:
+    - includes
+    - my-llm-exporter.php
+  bootstrapFiles:
+    - tests/phpstan-bootstrap.php

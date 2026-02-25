@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ruleset name="WP Markdown Exporter">
+  <description>PHPCS rules for WP Markdown Exporter.</description>
+
+  <arg name="basepath" value="."/>
+  <arg name="extensions" value="php"/>
+
+  <file>my-llm-exporter.php</file>
+  <file>includes</file>
+  <file>uninstall.php</file>
+
+  <exclude-pattern>vendor/*</exclude-pattern>
+
+  <rule ref="WordPress-Core"/>
+  <rule ref="WordPress-Docs"/>
+  <rule ref="WordPress-Extra"/>
+</ruleset>
